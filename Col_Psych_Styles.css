@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#paper {
+    z-index: 0;
+    position: fixed;
+    left: 0%; /* align left edge with center of viewport */
+    top: 0;
+    background-size:cover;
+    margin-left: -470px; /* move left by half element's width */
+}
+
+#thepsych {
+	z-index:2;
+    position: absolute;
+    top: -111px;
+    left: 355px;
+}
+#ascroll {
+	z-index:2;
+    position: absolute;
+    top: 812px;
+    left: 321px;
+}
+/* etc... */
